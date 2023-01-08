@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teampage.css">
+    <title>Teampage</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="firsttitle">The creative crew</h1>
+        <div class="whoweare">
+            <h2 class="twotitle">Who we are</h2>
+            <p class="bottomtext">We are a team of creatively diverse. driven. 
+                innotive individuals 
+                working in various location from the world</p>
+        </div>
+    </div>
+</div>
+</div>
+<div class="bodycontainer">
+    <div class="member">
+        <img src="photo1.png"/>
+        <p class="text1" style="">Product Owner</p>
+        <p class="undertext1">Bill Mahoney</p>
+ 
+  
+</div>
+<div class="member">
+    <img src="photo2.png"/>
+    <p class="text2">Art Desiger</p>
+    <p class="undertext2">Saba Cabrera</p>
+</div>
+<div class="member">
+<img src="photo3.png" class="image" />
+<p class="text3" style="left: -150px;">Teach Lead</p>
+<p class="undertext3">Shae Le</p>
+</div>
+<div class="member">
+<img src="photo4.png"/>
+<p class="text4">UX Designer</p>
+<p class="undertext4">Skylah Lu</p>
+</div>
+<div class="member">
+<img src="photo5.png"/>
+<p class="text5">Developer</p>
+<p class="undertext5">Griff Richards</p>
+</div>
+<div class="member">
+<img src="photo6.png" class="float"/>
+<p class="text6">Developer</p>
+<p class="undertext6">Stan John</p>
+
+
+</div>
+
+</body>
+</html>
+
+<style> 
+
+ 
+
+
+.bodycontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     
+
+}
+
+.bodycontainer .member{
+    
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text1 {
+    writing-mode: vertical-rl;
+    
+}
+
+.firsttitle{
+    font-family: 'PT Serif';
+}
+
+.member img {
+  max-width: 80%;
+  min-width: 40%;
+  
+
+}
+
+.whoweare{
+width: 70%;
+}
+
+
+
+
+.member {
+  display: grid;
+  grid-template-columns: 7fr 1fr; /* This will create two columns, with the image taking up 1fr and the text taking up 2fr */
+  grid-gap: 10px;
+  
+}
+
+
+
+
+@media only screen and (max-width: 2000px) and (min-width: 1000px){
+    .text1, .text2, .text3, .text4, .text5, .text6 {
+    writing-mode: vertical-rl;
+    font-family: 'PT Serif';
+}
+
+.firsttitle{
+    font-family: 'PT Serif';
+}
+
+.undertext1, .undertext2, .undertext3, .undertext4, .undertext5, .undertext6, .twotitle, .bottomtext{
+    font-family: 'Poppins';
+}
+
+
+ 
+
+    
+  .text2{
+    margin-top: 160px;
+}
+
+.text5{
+   
+    margin-top: 101px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+
+}
+.bodycontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 200px;
+    margin-top: -200px;
+
+}
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1700px){}
+
+.undertext1{
+        margin-top: -90px;
+        margin-left: 80px;
+    }
+
+    .undertext2{
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+    .undertext3{
+        margin-left: 80px;
+        margin-top: -90px;
+    }
+
+    .undertext4{
+        margin-left: 80px;
+        margin-top: -65px;
+    }
+
+    .undertext5{
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+
+    .undertext6{
+        margin-left: 80px;
+        margin-top: -60px;
+    }
+
+  
+
+.member:nth-child(1) img {
+    margin-left: 80px;
+}
+
+.member:nth-child(2) img {
+margin-top: 150px;
+margin-left: 80px;
+}
+
+.member:nth-child(3) img {
+margin-left: 80px;
+}
+
+.member:nth-child(4) img{
+    margin-left: 80px;
+}
+
+
+.member:nth-child(5) img {
+  margin-left: 80px;
+  margin-top: 100px;
+
+}
+
+
+.member:nth-child(6) img {
+  margin-left: 80px;
+
+}
+  
+
+@media only screen and (max-width: 1500px) and (min-width: 1300px){
+    .undertext1{
+        margin-top: -90px;
+        margin-left: 60px;
+    }
+
+    .undertext2{
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+
+    .undertext3{
+        margin-left: 60px;
+        margin-top: -90px;
+    }
+
+    .undertext4{
+        margin-left: 60px;
+        margin-top: -65px;
+    }
+
+    .undertext5{
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+
+    .undertext6{
+        margin-left: 60px;
+        margin-top: -60px;
+    }
+
+    .whoweare{ 
+        width: 20%;
+}
+
+.member:nth-child(1) img {
+    margin-left: 60px;
+}
+
+.member:nth-child(2) img {
+margin-top: 150px;
+margin-left: 60px;
+}
+
+.member:nth-child(3) img {
+margin-left: 60px;
+}
+
+.member:nth-child(4) img{
+    margin-left: 60px;
+}
+
+
+.member:nth-child(5) img {
+  margin-left: 60px;
+  margin-top: 100px;
+
+}
+
+
+.member:nth-child(6) img {
+  margin-left: 60px;
+
+}
+
+
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1000px){}
+    
+    .bodycontainer{
+        font-size: 15px;
+    }
+
+    .undertext1{
+        margin-top: -90px;
+        margin-left: 50px;
+    }
+
+    .undertext2{
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .undertext3{
+        margin-left: 50px;
+        margin-top: -90px;
+    }
+
+    .undertext4{
+        margin-left: 50px;
+        margin-top: -65px;
+    }
+
+    .undertext5{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .undertext6{
+        margin-left: 50px;
+        margin-top: -60px;
+    }
+
+    
+
+    .member:nth-child(1) img {
+        margin-left: 50px;
+}
+
+.member:nth-child(2) img {
+margin-top: 150px;
+margin-left: 50px;
+
+}
+
+.member:nth-child(3) img {
+margin-left: 50px;
+}
+
+.member:nth-child(4) img{
+    margin-left: 50px;
+}
+
+
+.member:nth-child(5) img {
+  margin-left: 50px;
+  margin-top: 100px;
+
+}
+
+
+.member:nth-child(6) img {
+  margin-left: 50px;
+
+}
+  
+
+    .text2{
+        margin-top: 155px;
+    }
+
+    .text5{
+        margin-top: 101px;
+    }
+
+
+
+.whoweare{
+width: 28%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 999px) and (min-width: 801px){
+.whoweare{
+width: 40%;
+}
+
+.bodycontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    flex-direction: column; 
+    
+
+}
+
+.bottomtext{
+    font-size: 14px;
+    margin-left: 85px;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.twotitle{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 85px;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+    
+}
+
+.firsttitle{
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 85px;
+}
+
+.text1{
+    margin-top: 10px;
+    font-size: 14px;;
+}
+
+.text2{
+    margin-top: 75px;
+
+}
+
+.text3{
+    margin-top: -30px;
+}
+
+.text4{
+    margin-top: 40px;
+}
+
+.text5{
+   margin-top: -19px;
+}
+
+.text6{
+    margin-top: 42px;
+}
+
+
+.undertext1{
+    margin-top: -50px;
+    margin-left: 85px;
+    
+}
+
+.undertext2{
+  
+    margin-left: 85px;
+    
+}
+
+.undertext3{
+    margin-left: 85px;
+    margin-top: -45px;
+    
+}
+
+.undertext4{
+    margin-top: 10px;
+    margin-left: 85px;
+    
+}
+
+.undertext5{
+    margin-top: -40px;
+    margin-left: 85px;
+    
+}
+
+.undertext6{
+    margin-left: 85px;
+    margin-top: 5px;
+    
+}
+
+
+
+
+
+.header {
+flex-direction: column;
+margin-left: auto;
+}
+
+
+.member:nth-child(1) img {
+margin-top: 10px;
+margin-left: 85px;
+
+}
+
+.member:nth-child(2) img {
+margin-top: 70px;
+margin-left: 85px;
+}
+
+.member:nth-child(3) img {
+margin-top: -30px;
+margin-left: 85px;
+
+}
+
+.member:nth-child(4) img {
+margin-top: 30px;
+margin-left: 85px;
+}
+
+.member:nth-child(5) img {
+margin-top: -20px;
+margin-left: 85px;
+
+}
+
+
+.member:nth-child(6) img {
+margin-top: 40px;
+margin-left: 85px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) and (min-width: 700px){
+    .whoweare{
+width: 45%;
+}
+
+.bodycontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    flex-direction: column; 
+    
+
+}
+
+.bottomtext{
+    font-size: 14px;
+    margin-left: 75px;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.twotitle{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 75px;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+    
+}
+
+.firsttitle{
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 75px;
+}
+
+.text1{
+    margin-top: 10px;
+    font-size: 14px;;
+}
+
+.text2{
+    margin-top: 75px;
+
+}
+
+.text3{
+    margin-top: -30px;
+}
+
+.text4{
+    margin-top: 40px;
+}
+
+.text5{
+   margin-top: -19px;
+}
+
+.text6{
+    margin-top: 42px;
+}
+
+
+.undertext1{
+    margin-top: -50px;
+    margin-left: 75px;
+    
+}
+
+.undertext2{
+  
+    margin-left: 75px;
+    
+}
+
+.undertext3{
+    margin-left: 75px;
+    margin-top: -45px;
+    
+}
+
+.undertext4{
+    margin-top: 10px;
+    margin-left: 75px;
+    
+}
+
+.undertext5{
+    margin-top: -40px;
+    margin-left: 75px;
+    
+}
+
+.undertext6{
+    margin-left: 75px;
+    margin-top: 5px;
+    
+}
+
+
+.header {
+flex-direction: column;
+margin-left: auto;
+}
+
+
+.member:nth-child(1) img {
+margin-top: 10px;
+margin-left: 75px;
+
+}
+
+.member:nth-child(2) img {
+margin-top: 70px;
+margin-left: 75px;
+}
+
+.member:nth-child(3) img {
+margin-top: -30px;
+margin-left: 75px;
+
+}
+
+.member:nth-child(4) img {
+margin-top: 30px;
+margin-left: 75px;
+}
+
+.member:nth-child(5) img {
+margin-top: -20px;
+margin-left: 75px;
+
+}
+
+
+.member:nth-child(6) img {
+margin-top: 40px;
+margin-left: 75px;
+}
+
+
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px){
+    
+    .whoweare{
+width: 50%;
+}
+
+.bodycontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    flex-direction: column; 
+    
+
+}
+
+.bottomtext{
+    font-size: 14px;
+    margin-left: 55px;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.twotitle{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 55px;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+    
+}
+
+.firsttitle{
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 55px;
+}
+
+.text1{
+    margin-top: 10px;
+    font-size: 14px;;
+}
+
+.text2{
+    margin-top: 75px;
+
+}
+
+.text3{
+    margin-top: -30px;
+}
+
+.text4{
+    margin-top: 40px;
+}
+
+.text5{
+   margin-top: -19px;
+}
+
+.text6{
+    margin-top: 42px;
+}
+
+
+.undertext1{
+    margin-top: -40px;
+    margin-left: 55px;
+    
+}
+
+.undertext2{
+    margin-left: 55px;
+    
+}
+
+.undertext3{
+    margin-left: 55px;
+    margin-top: -35px;
+    
+}
+
+.undertext4{
+    margin-top: 10px;
+    margin-left: 55px;
+    
+}
+
+.undertext5{
+    margin-top: -40px;
+    margin-left: 55px;
+    
+}
+
+.undertext6{
+    margin-left: 55px;
+    margin-top: 5px;
+    
+}
+
+
+.header {
+flex-direction: column;
+margin-left: auto;
+}
+
+
+.member:nth-child(1) img {
+margin-top: 10px;
+margin-left: 55px;
+
+}
+
+.member:nth-child(2) img {
+margin-top: 70px;
+margin-left: 55px;
+}
+
+.member:nth-child(3) img {
+margin-top: -30px;
+margin-left: 55px;
+
+}
+
+.member:nth-child(4) img {
+margin-top: 30px;
+margin-left: 55px;
+}
+
+.member:nth-child(5) img {
+margin-top: -20px;
+margin-left: 55px;
+
+}
+
+
+.member:nth-child(6) img {
+margin-top: 40px;
+margin-left: 55px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 500px) and (min-width: 350px){
+    
+    .whoweare{
+width: 80%;
+}
+
+
+
+.bottomtext{
+    font-size: 14px;
+    margin-left: 55px;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.twotitle{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 55px;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+    
+}
+
+.firsttitle{
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 55px;
+}
+
+.text1{
+    margin-top: 10px;
+    font-size: 14px;;
+}
+
+.text2{
+    margin-top: 75px;
+
+}
+
+.text3{
+    margin-top: -30px;
+}
+
+.text4{
+    margin-top: 40px;
+}
+
+.text5{
+   margin-top: -19px;
+}
+
+.text6{
+    margin-top: 42px;
+}
+
+
+.undertext1{
+    margin-top: -40px;
+    margin-left: 50px;
+    
+}
+
+.undertext2{
+    margin-left: 55px;
+    
+}
+
+.undertext3{
+    margin-left: 55px;
+    margin-top: -45px;
+    
+}
+
+.undertext4{
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+
+.undertext5{
+    margin-top: -20px;
+    margin-left: 50px;
+    
+}
+
+.undertext6{
+    margin-left: 55px;
+    margin-top: 5px;
+    
+}
+
+
+.header {
+flex-direction: column;
+margin-left: auto;
+}
+
+img{
+    margin-left: 40px;
+}
+
+.member:nth-child(1) img {
+margin-top: 10px;
+
+
+}
+
+.member:nth-child(2) img {
+margin-top: 70px;
+
+}
+
+.member:nth-child(3) img {
+margin-top: -30px;
+
+
+}
+
+.member:nth-child(4) img {
+margin-top: 39px;
+
+}
+
+.member:nth-child(5) img {
+margin-top: -20px;
+
+}
+
+
+.member:nth-child(6) img {
+margin-top: 40px;
+
+}
+
+
+}
+
+
+
+
+
+</style>
+<style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); </style>
+<style> @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap'); </style>
+<style> @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); </style>
+
+
+
+
+</style>
